@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Danh sách" />
+        <item android:id="@+id/gioHang"
+            android:title="Giỏ hàng"
+            android:icon="@drawable/baseline_shopping_cart_24"/>
+
+    </group>
+
+    <item android:title="More">
+        <menu >
+            <item android:id="@+id/account"
+                android:title="Account"
+                android:icon="@drawable/baseline_home_24"/>
+            <item android:id="@+id/caiDat"
+                android:title="Cài đặt"
+                android:icon="@drawable/baseline_settings_24"/>
+        </menu>
+
+    </item>
+</menu>

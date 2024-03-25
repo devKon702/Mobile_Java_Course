@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Đoạn Text "PTIT" -->
+    <TextView
+        android:id="@+id/ptitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F30404"
+        android:textStyle="bold"
+        android:text="PTIT"
+        android:textSize="40sp"/>
+
+    <!-- Hình ảnh -->
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ptithcm" />
+
+    <!-- Đoạn Text "Nhóm em" -->
+    <TextView
+        android:id="@+id/nhomEmText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Android"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

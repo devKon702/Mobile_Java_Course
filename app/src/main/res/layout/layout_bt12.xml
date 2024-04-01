@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context=".MainBT12">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhóm 10 - Bài 12"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#06F40A"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ptithcm"/>
+    <EditText
+        style="@style/style_editText"
+        android:id="@+id/edtTaiKhoan"
+        android:hint="@string/username"
+        android:drawableLeft="@drawable/baseline_home_24" />
+    <EditText
+        style="@style/style_editText"
+        android:id="@+id/edtMatKhau"
+        android:hint="@string/password"
+        android:drawableLeft="@drawable/baseline_settings_24" />
+
+    <CheckBox
+        android:id="@+id/cbNhoMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhớ mật khẩu"/>
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:layout_gravity="center"/>
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"/>
+    <Button
+        android:id="@+id/btnBieuDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biểu đồ"
+        android:layout_gravity="center"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
